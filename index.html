@@ -13,23 +13,27 @@
    <header class="header">
         <!-- fond noir -->
         <div class="black-bg">
-            <div> 
-                <span>trending title</span>
-                <p>Class property employ ancho red multi level mansion</p>
+            <div class="container grid-4-1">
+                <div>
+                    <span>trending title</span>
+                    <p>Class property employ ancho red multi level mansion</p>
+                </div>
+                <div><i class="fa-sharp fa-solid fa-calendar-days"></i> +880166 253 232</div>
             </div>
-            <div><i class="fa-sharp fa-solid fa-calendar-days"></i> +880166 253 232</div>
         </div>
         <!-- fond gris -->
         <div class="gray-bg">
-            <a href="#">
-                <img src="img/logo/logo.png" alt="logo">
-            </a>
-            <img src="img/gallery/body_card1.png" alt="body_card1">
+            <div class="container grid-1-4">
+                <a href="#">
+                    <img src="img/logo/logo.png" alt="logo">
+                </a>
+                <img src="img/gallery/body_card1.png" alt="body_card1">
+            </div>
         </div>
         <!-- fond rouge avec nav -->
         <div class="red-bg">
             <!-- nav -->
-           <nav>
+           <nav class="container grid-4-1">
                 <!-- categories -->
                <ul class="nav-cat">
                     <li><a href="#">home</a></li>
@@ -39,32 +43,34 @@
                     <li><a href="#">contact</a></li>
                </ul>
                <!-- réseaux sociaux -->
-                <ul class="nav-social">
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                    </li>
-                </ul>
-                <!-- search -->
-                <a href="#" class="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </a>   
+                <div>
+                    <ul class="nav-social">
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- search -->
+                    <a href="#" class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>   
            </nav>
         </div>
    </header>
@@ -72,162 +78,173 @@
    <main>
       <!-- fond gris -->
       <div class="gray-bg">
-        <!-- 2fr -->
-        <article>
-            <img src="img/trending/trending_top02.jpg" alt="trending_top02">
-            <div class="content-overlay">
-                <span class="category red">Business</span>
-                <h1>Anna Lora stuns in white at her australian premiere</h1>
-                <span class="date">by Alice cloe - Jun 19, 2020</span>
+        <div class="container grid-2-1">
+            <!-- 2fr -->
+            <article>
+                <img src="img/trending/trending_top02.jpg" alt="trending_top02">
+                <div class="content-overlay">
+                    <span class="category red">Business</span>
+                    <h1>Anna Lora stuns in white at her australian premiere</h1>
+                    <span class="date">by Alice cloe - Jun 19, 2020</span>
+                </div>
+            </article>
+            <!-- 1fr -->
+            <div>
+                <article>
+                    <img src="img/trending/trending_top3.jpg" alt="trending_top3">
+                    <div class="content-overlay">
+                        <span class="category blue">Fashion</span>
+                        <h3>Anna Lora stuns in white at her australian premiere</h3>
+                        <span class="date">by Alice cloe - Jun 19, 2020</span>
+                    </div>
+                </article>
+                <article>
+                    <img src="img/trending/trending_top4.jpg" alt="trending_top4">
+                    <div class="content-overlay">
+                        <span class="category green">Tech</span>
+                        <h3>Anna Lora stuns in white at her australian premiere</h3>
+                        <span class="date">by Alice cloe - Jun 19, 2020</span>
+                    </div>
+                </article>
             </div>
-        </article>
-        <!-- 1fr -->
-        <div>
-            <article>
-                <img src="img/trending/trending_top3.jpg" alt="trending_top3">
-                <div class="content-overlay">
-                    <span class="category blue">Fashion</span>
-                    <h3>Anna Lora stuns in white at her australian premiere</h3>
-                    <span class="date">by Alice cloe - Jun 19, 2020</span>
-                </div>
-            </article>
-            <article>
-                <img src="img/trending/trending_top4.jpg" alt="trending_top4">
-                <div class="content-overlay">
-                    <span class="category green">Tech</span>
-                    <h3>Anna Lora stuns in white at her australian premiere</h3>
-                    <span class="date">by Alice cloe - Jun 19, 2020</span>
-                </div>
-            </article>
         </div>
       </div>
       <!-- section what's new -->
-      <section class="gray-bg">
-        <!-- 2fr -->
-        <div>
-            <!-- titre et nav -->
+      <div class="gray-bg">
+        <div class="container grid-2-1">
+            <!-- 2fr -->
             <div>
-                <h2>Whats new</h2>
-                <nav>
-                    <ul>
-                        <li>Lifestyle</li>
-                        <li>Travel</li>
-                        <li>Fashion</li>
-                        <li>Sports</li>
-                        <li>Technology</li>
-                    </ul>
-                </nav>
+                <div class="white-bg">
+                    <!-- titre et nav -->
+                    <div>
+                        <h2>Whats new</h2>
+                        <nav>
+                            <ul>
+                                <li>Lifestyle</li>
+                                <li>Travel</li>
+                                <li>Fashion</li>
+                                <li>Sports</li>
+                                <li>Technology</li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- 1fr -->
+                    <div class="grid-1-1">
+                        <div>
+                            <div>
+                                <img src="img/gallery/whats_news_details1.png" alt="whats_news_details1">
+                            </div>
+                            <div class="content">
+                                <h3>
+                                    <a href="#">Secretart for Economic Air plane that looks like</a>
+                                </h3>
+                                <span class="date">by Alice cloe - Jun 19, 2020</span>
+                                <p>Struggling to sell one multi-million dollar home currently on the market won’t stop actress and singer Jennifer Lopez.</p>
+                            </div>
+                        </div>
+                        <!-- 1fr -->
+                        <div>
+                            <article>
+                                <img src="img/gallery/whats_right_img1.png" alt="whats_right_img1">
+                                <div>
+                                    <span class="category blue-text">Fashion</span>
+                                    <h4><a href="#">Portrait of group of friends ting eat. market in.</a></h4>
+                                    <span class="date">Jun 19, 2020</span>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/gallery/whats_right_img2.png" alt="whats_right_img2">
+                                <div>
+                                    <span class="category blue-text">Fashion</span>
+                                    <h4><a href="#">Portrait of group of friends ting eat. market in.</a></h4>
+                                    <span class="date">Jun 19, 2020</span>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/gallery/whats_right_img3.png" alt="whats_right_img3">
+                                <div>
+                                    <span class="category green-text">Fashion</span>
+                                    <h4><a href="#">Portrait of group of friends ting eat. market in.</a></h4>
+                                    <span class="date">Jun 19, 2020</span>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/gallery/whats_right_img4.png" alt="whats_right_img4">
+                                <div>
+                                    <span class="category red-text">Fashion</span>
+                                    <h4><a href="#">Portrait of group of friends ting eat. market in.</a></h4>
+                                    <span class="date">Jun 19, 2020</span>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <a href="#"><img src="img/gallery/body_card1.png" alt="body_card1"></a>
             </div>
             <!-- 1fr -->
             <div>
+                <!-- fans -->
+                <div class="fans white-bg">
+                    <div class="grid-2">
+                        <!-- facebook -->
+                        <div>
+                            <img src="img/news/icon-fb.png" alt="icon-fb">
+                            <p><span class="number">8,045</span>fans</p>
+                        </div>
+                        <!-- twitter -->
+                        <div>
+                            <img src="img/news/icon-tw.png" alt="icon-tw">
+                            <p><span class="number">8,045</span>fans</p>
+                        </div>
+                        <!-- insta -->
+                        <div>
+                            <img src="img/news/icon-ins.png" alt="icon-ins">
+                            <p><span class="number">8,045</span>fans</p>
+                        </div>
+                        <!-- youtube -->
+                        <div>
+                            <img src="img/news/icon-yo.png" alt="icon-yo">
+                            <p><span class="number">8,045</span>fans</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- most recent -->
                 <div>
-                    <img src="img/gallery/whats_news_details1.png" alt="whats_news_details1">
+                    <h3>Most recent</h3>
+                    <article>
+                        <img src="img/gallery/most_recent.png" alt="most_recent">
+                        <div class="content-overlay">
+                            <span class="category purple">Vogue</span>
+                            <h3>Anna Lora stuns in white at her australian premiere</h3>
+                            <span class="date">Jhon | 2 hours ago</span>
+                        </div>
+                    </article>
+                    <article class="grid-1-4">
+                        <img src="img/gallery/most_recent1.png" alt="most_recent1">
+                        <div>
+                            <a href="#">Scarlett’s disappointment at latest accolade</a>
+                            <span class="date">Jhon | 2 hours ago</span>
+                        </div>
+                    </article>
+                    <article class="grid-1-4">
+                        <img src="img/gallery/most_recent2.png" alt="most_recent2">
+                        <div>
+                            <a href="#">Scarlett’s disappointment at latest accolade</a>
+                            <span class="date">Jhon | 2 hours ago</span>
+                        </div>
+                    </article>
                 </div>
-                <div class="content">
-                    <h3>
-                        <a href="#">Secretart for Economic Air plane that looks like</a>
-                    </h3>
-                    <span class="date">by Alice cloe - Jun 19, 2020</span>
-                    <p>Struggling to sell one multi-million dollar home currently on the market won’t stop actress and singer Jennifer Lopez.</p>
-                </div>
-            </div>
-            <!-- 1fr -->
-            <div>
-                <article>
-                    <img src="img/gallery/whats_right_img1.png" alt="whats_right_img1">
-                    <div>
-                        <span class="category blue-text">Fashion</span>
-                        <h4><a href="#">Portrait of group of friends ting eat. market in.</a></h4>
-                        <span class="date">Jun 19, 2020</span>
-                    </div>
-                </article>
-                <article>
-                    <img src="img/gallery/whats_right_img2.png" alt="whats_right_img2">
-                    <div>
-                        <span class="category blue-text">Fashion</span>
-                        <h4><a href="#">Portrait of group of friends ting eat. market in.</a></h4>
-                        <span class="date">Jun 19, 2020</span>
-                    </div>
-                </article>
-                <article>
-                    <img src="img/gallery/whats_right_img3.png" alt="whats_right_img3">
-                    <div>
-                        <span class="category green-text">Fashion</span>
-                        <h4><a href="#">Portrait of group of friends ting eat. market in.</a></h4>
-                        <span class="date">Jun 19, 2020</span>
-                    </div>
-                </article>
-                <article>
-                    <img src="img/gallery/whats_right_img4.png" alt="whats_right_img4">
-                    <div>
-                        <span class="category red-text">Fashion</span>
-                        <h4><a href="#">Portrait of group of friends ting eat. market in.</a></h4>
-                        <span class="date">Jun 19, 2020</span>
-                    </div>
-                </article>
-            </div>
-        </div>
-        <!-- 1fr -->
-        <div>
-            <!-- fans -->
-            <div class="fans">
-                <!-- facebook -->
-                <div>
-                    <img src="img/news/icon-fb.png" alt="icon-fb">
-                    <p><span class="number">8,045</span>fans</p>
-                </div>
-                <!-- twitter -->
-                <div>
-                    <img src="img/news/icon-tw.png" alt="icon-tw">
-                    <p><span class="number">8,045</span>fans</p>
-                </div>
-                <!-- insta -->
-                <div>
-                    <img src="img/news/icon-ins.png" alt="icon-ins">
-                    <p><span class="number">8,045</span>fans</p>
-                </div>
-                <!-- youtube -->
-                <div>
-                    <img src="img/news/icon-yo.png" alt="icon-yo">
-                    <p><span class="number">8,045</span>fans</p>
-                </div>
-            </div>
-            <!-- most recent -->
-            <div>
-                <h3>Most recent</h3>
-                <article>
-                    <img src="img/gallery/most_recent.png" alt="most_recent">
-                    <div class="content-overlay">
-                        <span class="category purple">Vogue</span>
-                        <h3>Anna Lora stuns in white at her australian premiere</h3>
-                        <span class="date">Jhon | 2 hours ago</span>
-                    </div>
-                </article>
-                <article>
-                    <img src="img/gallery/most_recent1.png" alt="most_recent1">
-                    <div>
-                        <a href="#">Scarlett’s disappointment at latest accolade</a>
-                        <span class="date">Jhon | 2 hours ago</span>
-                    </div>
-                </article>
-                <article>
-                    <img src="img/gallery/most_recent2" alt="most_recent2">
-                    <div>
-                        <a href="#">Scarlett’s disappointment at latest accolade</a>
-                        <span class="date">Jhon | 2 hours ago</span>
-                    </div>
-                </article>
             </div>
         </div>
-      </section>
+      </div>
       <!-- what's most popular -->
       <div class="gray-bg">
         <!-- conteneur -->
-        <div>
+        <div class="container">
             <!-- 1fr -->
             <div>
                 <a href="#">
-                    <img src="img/gallery/body_card3.png" alt="body_card3">
+                    <img src="img/gallery/body_card2.png" alt="body_card2.png">
                 </a>
             </div>
             <!-- 3fr -->
@@ -259,79 +276,85 @@
       </div>
       <!-- trending news -->
       <div class="white-bg">
-        <h2>Trending News</h2>
-        <div>
-            <article>
-                <img src="img/gallery/tranding2.png" alt="trending2">
-                <div class="content-overlay">
-                    <h3>What to Expect From the 2020 Oscar Nomin ations</h3>
-                    <span class="date">Jun 19, 2020</span>
-                    <i class="fa-thin fa-circle-play"></i>
-                </div>
-            </article>
-            <article>
-                <img src="img/gallery/tranding1.png" alt="trending1">
-                <div class="content-overlay">
-                    <h3>What to Expect From the 2020 Oscar Nomin ations</h3>
-                    <span class="date">Jun 19, 2020</span>
-                    <i class="fa-thin fa-circle-play"></i>
-                </div>
-            </article>
-            <article>
-                <img src="img/gallery/tranding2.png" alt="trending2">
-                <div class="content-overlay">
-                    <h3>What to Expect From the 2020 Oscar Nomin ations</h3>
-                    <span class="date">Jun 19, 2020</span>
-                    <i class="fa-thin fa-circle-play"></i>
-                </div>
-            </article> 
+        <div class="container">
+            <h2>Trending News</h2>
+            <div>
+                <article>
+                    <img src="img/gallery/tranding2.png" alt="trending2">
+                    <div class="content-overlay">
+                        <h3>What to Expect From the 2020 Oscar Nomin ations</h3>
+                        <span class="date">Jun 19, 2020</span>
+                        <i class="fa-thin fa-circle-play"></i>
+                    </div>
+                </article>
+                <article>
+                    <img src="img/gallery/tranding1.png" alt="trending1">
+                    <div class="content-overlay">
+                        <h3>What to Expect From the 2020 Oscar Nomin ations</h3>
+                        <span class="date">Jun 19, 2020</span>
+                        <i class="fa-thin fa-circle-play"></i>
+                    </div>
+                </article>
+                <article>
+                    <img src="img/gallery/tranding2.png" alt="trending2">
+                    <div class="content-overlay">
+                        <h3>What to Expect From the 2020 Oscar Nomin ations</h3>
+                        <span class="date">Jun 19, 2020</span>
+                        <i class="fa-thin fa-circle-play"></i>
+                    </div>
+                </article>
+            </div>
         </div>
       </div>
       <!-- pub -->
       <div class="gray-bg">
-        <a href="#"><img src="img/gallery/body_card3.png" alt="body_card3"></a>
+        <div class="container">
+            <a href="#"><img src="img/gallery/body_card3.png" alt="body_card3"></a>
+        </div>
       </div>
    </main>
    <!-- footer -->
-   <footer>
-        <!-- première colonne -->
-        <div>
-            <img src="img/logo/logo2_footer.png" alt="logo2_footer">
-            <p>Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-            <address>198 West 21th Street, Suite 721 New York,NY 10010</address>
-            <p>Phone: +95 (0) 123 456 789 Cell: +95 (0) 123 456 789</p>
-        </div>
-        <!-- deuxième colonne -->
-        <div>
-            <h4>Popular post</h4>
-            <!-- article 1 -->
-            <article>
-                <img src="img/gallery/footer_post1.png" alt="footer_post1">
-                <div>
-                    <a href="#">Scarlett’s disappointment at latest accolade</a>
-                    <span class="date">Jhon | 2 hours ago</span>
-                </div>
-            </article>
-            <!-- article 2 -->
-            <article>
-                <img src="img/gallery/footer_post2.png" alt="footer_post2">
-                <div>
-                    <a href="#">Scarlett’s disappointment at latest accolade</a>
-                    <span class="date">Jhon | 2 hours ago</span>
-                </div>
-            </article>
-            <!-- article 3 -->
-            <article>
-                <img src="img/gallery/footer_post3.png" alt="footer_post3">
-                <div>
-                    <a href="#">Scarlett’s disappointment at latest accolade</a>
-                    <span class="date">Jhon | 2 hours ago</span>
-                </div>
-            </article>
-        </div>
-        <!-- troisième colonne -->
-        <div>
-            <a href="#"><img src="img/gallery/body_card4.png" alt="body_card4"></a>
+   <footer class="black-bg">
+        <div class="container">
+            <!-- première colonne -->
+            <div>
+                <img src="img/logo/logo2_footer.png" alt="logo2_footer">
+                <p>Lorem ipsum dolor sit amet, nsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <address>198 West 21th Street, Suite 721 New York,NY 10010</address>
+                <p>Phone: +95 (0) 123 456 789 Cell: +95 (0) 123 456 789</p>
+            </div>
+            <!-- deuxième colonne -->
+            <div>
+                <h4>Popular post</h4>
+                <!-- article 1 -->
+                <article>
+                    <img src="img/gallery/footer_post1.png" alt="footer_post1">
+                    <div>
+                        <a href="#">Scarlett’s disappointment at latest accolade</a>
+                        <span class="date">Jhon | 2 hours ago</span>
+                    </div>
+                </article>
+                <!-- article 2 -->
+                <article>
+                    <img src="img/gallery/footer_post2.png" alt="footer_post2">
+                    <div>
+                        <a href="#">Scarlett’s disappointment at latest accolade</a>
+                        <span class="date">Jhon | 2 hours ago</span>
+                    </div>
+                </article>
+                <!-- article 3 -->
+                <article>
+                    <img src="img/gallery/footer_post3.png" alt="footer_post3">
+                    <div>
+                        <a href="#">Scarlett’s disappointment at latest accolade</a>
+                        <span class="date">Jhon | 2 hours ago</span>
+                    </div>
+                </article>
+            </div>
+            <!-- troisième colonne -->
+            <div>
+                <a href="#"><img src="img/gallery/body_card4.png" alt="body_card4"></a>
+            </div>
         </div>
    </footer>
    <script src="https://kit.fontawesome.com/8f9223cc2c.js" crossorigin="anonymous"></script> 

@@ -1,0 +1,51 @@
+img {
+    display: block;
+    width: 100%;
+}
+
+.black-bg {
+    background-color: black;
+    color: $gray;
+}
+
+.gray-bg {
+    background-color: $gray;
+}
+
+.red-bg {
+    background-color: $red;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-4-1 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.grid-1-4 {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.grid-2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.grid-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
