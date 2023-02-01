@@ -3,6 +3,13 @@ img {
     width: 100%;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
 .black-bg {
     background-color: black;
     color: $gray;
@@ -45,7 +52,23 @@ img {
     grid-template-columns: 1fr 1fr;
 }
 
+.grid-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.flex-3 {
+    display: flex;
+    justify-content: space-between;
+    gap: $gap;
+}
+
+.v-spacing {
+    gap: $gap;
+}
+
