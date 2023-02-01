@@ -1,0 +1,18 @@
+@mixin br10 {
+    border-radius: 10px;
+}
+
+@mixin barlow-800 {
+    font-family: $barlow;
+    font-weight: 800;
+}
+
+@mixin barlow-700 {
+    font-family: $barlow;
+    font-weight: 700;
+}
+
+@mixin barlow-500 {
+    font-family: $barlow;
+    font-weight: 500;
+}
