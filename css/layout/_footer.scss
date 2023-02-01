@@ -1,7 +1,11 @@
-[src="img/logo/logo2_footer.png"] {
-    width: 125px;
+footer {
+    padding: 140px 0 80px;
 }
 
 footer .container > * {
     width: calc((100%/3) - (12rem/3));
+}
+
+[src="img/logo/logo2_footer.png"] {
+    width: 125px;
 }

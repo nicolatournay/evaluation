@@ -1,10 +1,36 @@
-.mybox {
-    height: 50px;
-    width: 50px;
-    background-color: darkmagenta;
-    cursor: pointer;
+.homepage {
+    h1, h2 {
+        margin: 0;
+    }
+}
+.div-1 {
+    padding: $gap 0;
+    border-bottom: 2px solid $darker;
 }
 
-.crimson {
-    background-color: crimson;
+.whats-new {
+    padding: 50px 0 20px;
 }
+
+.most-popular {
+    padding: 50px 0 30px;
+}
+
+.trending-news {
+    padding: 80px 0;
+}
+
+.pub {
+    padding: 90px 0;
+}
+
+[src="img/gallery/body_card1.png"] {
+    margin-top: 1.5rem;
+}
+
+[src="img/gallery/body_card2.png"] {
+    height: 100%;
+}
+
+
+
