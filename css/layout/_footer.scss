@@ -1,5 +1,8 @@
 footer {
     padding: 140px 0 80px;
+    @media screen and (max-width: $mobile) {
+        padding: 80px 0 30px;
+    }
 }
 
 footer .container > * {
@@ -68,4 +71,7 @@ address {
 
 [src="img/gallery/body_card4.png"] {
     width: 270px;
+    @media screen and (max-width: $mobile) {
+        width: 500px;
+    }
 }
