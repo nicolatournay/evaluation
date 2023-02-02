@@ -209,6 +209,17 @@
     }
 }
 
+.secretart-hidden {
+    overflow: hidden;
+    @include br10;
+    height: 220px;
+    @include mb15;
+}
+
+[src="img/gallery/whats_news_details1.png"] {
+    @include hover-img;
+}
+
 .secretart-article {
    margin: 0 15px 40px;
    img {
@@ -362,14 +373,3 @@
     height: 100%;
 }
 
-.overflow-hidden {
-    overflow: hidden;
-    @include br10;
-}
-
-[src="img/gallery/whats_news_details1.png"] {
-    transition: all .3s;
-    &:hover {
-        transform: scale(1.1);
-    }
-}

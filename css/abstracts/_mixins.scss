@@ -30,3 +30,10 @@
         color: $red;
     }
 }
+
+@mixin hover-img {
+    transition: transform .5s ease-in-out;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
