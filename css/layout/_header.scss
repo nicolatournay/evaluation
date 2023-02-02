@@ -8,6 +8,11 @@
     p {
         margin: 0;
     }
+    @media screen and (max-width: $mobile) {
+        font-size: 14px;
+        color: $darker;
+        font-weight: normal;
+    }
 }
 
 .header-title {
@@ -19,15 +24,25 @@
         color: $red;
         margin-right: 0.5rem;
     }
+    @media screen and (max-width: $mobile) {
+        border-right: none;
+    }
 }
 
 .weird-grid {
-    // display: grid;
-    // grid-template-columns: 1.5fr 2.5fr;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 9px 0;
+    @media screen and (max-width: $mobile) {
+        a:first-of-type {
+            display: none;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
 }
 
 [src="img/logo/logo.png"] {
@@ -77,3 +92,4 @@
         color: #fff;
     }
 }
+
