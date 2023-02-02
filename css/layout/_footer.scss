@@ -21,6 +21,11 @@ footer .container > * {
         margin-bottom: 30px;
         width: 125px;
     }
+    @media screen and (max-width: $mobile) {
+        p, address {
+            width: 330px;
+        }
+    }
 }
 
 address {
@@ -51,6 +56,11 @@ address {
     }
     img {
         width: 86px;
+    }
+    @media screen and (max-width: $mobile) {
+        a, h4 {
+            width: 180px;
+        }
     }
 }
 

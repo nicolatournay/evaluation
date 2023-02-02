@@ -1,5 +1,5 @@
 .nav {
-    [src="img/logo/logo.png"] {
+    .logo {
         display: none;
     }
 }
@@ -15,7 +15,7 @@
         ul, .search {
             display: none;
         }
-        [src="img/logo/logo.png"] {
+        .logo {
             display: block;
         }
     }

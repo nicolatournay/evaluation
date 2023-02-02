@@ -74,6 +74,9 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: $gap;
+    @media screen and (max-width: $mobile) {
+        flex-direction: column;
+    }
 }
 
 .x-spacing {
