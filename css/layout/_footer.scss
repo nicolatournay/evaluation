@@ -4,8 +4,58 @@ footer {
 
 footer .container > * {
     width: calc((100%/3) - (12rem/3));
+    padding: 0 15px;
 }
 
-[src="img/logo/logo2_footer.png"] {
-    width: 125px;
+// première colonne
+
+.infos {
+    color: $date;
+    line-height: 1.8;
+    font-size: 14px;
+    p {
+        width: 90%;
+        margin-bottom: 35px;
+    }
+    img {
+        margin-bottom: 30px;
+        width: 125px;
+    }
+}
+
+address {
+    font-style: normal;
+    width: 90%;
+}
+
+// deuxième colonne
+
+.popular-posts {
+    h4 {
+        margin-top: 0;
+        margin-bottom: 38px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    article {
+        margin-bottom: 20px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 18px;
+    }
+    a {
+        color: #fff;
+    }
+    img {
+        width: 86px;
+    }
+}
+
+// troisième colonne
+
+[src="img/gallery/body_card4.png"] {
+    width: 270px;
 }

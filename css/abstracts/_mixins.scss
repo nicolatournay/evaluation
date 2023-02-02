@@ -16,3 +16,17 @@
     font-family: $barlow;
     font-weight: 500;
 }
+
+@mixin mb15 {
+    margin-bottom: 15px;
+}
+
+@mixin mb30 {
+    margin-bottom: 25px;
+}
+
+@mixin hover-red {
+    &:hover {
+        color: $red;
+    }
+}

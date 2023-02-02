@@ -6,6 +6,9 @@ img {
 
 a {
     text-decoration: none;
+    &:hover {
+        color: $red;
+    }
 }
 
 ul {
