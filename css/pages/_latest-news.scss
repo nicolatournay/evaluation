@@ -1,0 +1,45 @@
+.latest-news {
+    padding: 80px 0 30px;
+    p {
+        color: $date;
+        line-height: 30px;
+    }
+    h1, h2, .title {
+        font-size: 40px;
+        font-family: $barlow;
+        font-weight: 700;
+        @media screen and (max-width: $mobile) {
+            font-size: 31px;
+        }
+    }
+    .title {
+      margin-right: 20px;
+      color: #000;  
+    }
+    .container {
+        margin-bottom: 90px;
+    }
+    @media screen and (max-width: $mobile) {
+        font-size: 15px;
+        // padding: 60px 0;
+    }
+}
+
+[src="img/news/news_card.jpg"] {
+    width: 70%;
+    margin: 0 auto;
+    @media screen and (max-width: $mobile) {
+       display: none; 
+    }
+}
+
+.social-icons {
+    img {
+       width: 29px;
+       display: inline;
+       margin: 0 10px; 
+    }
+    @media screen and (max-width: $mobile) {
+        margin: 55px 0;
+    }
+}
