@@ -3,7 +3,16 @@
 }
 
 .services {
+    position: relative;
+}
+
+.services-content {
     padding: 100px 0 100px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
 }
 
 .team {
