@@ -2,6 +2,9 @@
 
 .mission-vision {
     padding: 120px 0 100px;
+    @media screen and (max-width: $mobile) {
+        padding: 50px 0;
+    }
     p {
         font-family: "Roboto",sans-serif;
         color: #506172;
@@ -36,6 +39,14 @@
 .services {
     position: relative;
     line-height: 30px;
+    @media screen and (max-width: $mobile) {
+        [src="img/gallery/section_bg02.jpg"] {
+            display: none;
+        }
+        position: static;
+        background-color: $red;
+        padding: 100px 0;
+    }
     h2 {
         font-size: 50px;
         font-weight: 800;
@@ -62,6 +73,10 @@
     transform: translate(-50%, -50%);
     color: #fff;
     gap: $gap;
+    @media screen and (max-width: $mobile) {
+        position: static;
+        transform: translate(0, 0);
+    }
 }
 
 .services-img,
@@ -77,12 +92,22 @@
 
 .team {
     padding: 120px 0 100px;
+    @media screen and (max-width: $mobile) {
+        padding: 50px 0;
+        .container {
+            width: 420px;
+        }
+    }
     h2 {
         font-size: 50px;
         font-weight: 800;
         margin: 0 0 8px;
         text-transform: capitalize;
         margin-bottom: 50px;
+        font-family: $barlow;
+        @media screen and (max-width: $mobile) {
+            font-size: 31px;
+        }
     }
 }
 
@@ -116,7 +141,6 @@
     color: #fff;
     text-transform: uppercase;
     position: relative;
-    color: #fff !important;
     font-weight: 500;
     font-size: 14px;
     span {
@@ -138,8 +162,16 @@
         transform-origin: 0 0;
     }
     &:hover {
+        color: #fff;
         &::after {
             transform: scaleX(1);
+        }
+    }
+    @media screen and (max-width: $mobile) {
+        background-color: #000;
+        color: $red;
+        &::after {
+            background-color: #fff;
         }
     }
 }
