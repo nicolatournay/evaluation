@@ -36,7 +36,7 @@ ul {
 }
 
 .container {
-    width: 1200px;
+    width: 63%;
     margin: 0 auto;
 }
 
@@ -112,5 +112,21 @@ ul {
     .grid-1-4-flex {
         display: flex;
         flex-direction: column;
+    }
+}
+
+// tablet
+
+@media screen and (max-width: $tablet) {
+    .p-none {
+        display: none;
+    }
+}
+
+// small pc screen
+
+@media screen and (max-width: $mid) {
+    .social-search ul {
+        display: none;
     }
 }
