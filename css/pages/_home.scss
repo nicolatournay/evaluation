@@ -199,10 +199,11 @@
             margin-bottom: 35px;
         }
     }
-    .wn-articles {
-        @include br10;
-        padding: 30px 20px 10px;
-    }
+}
+
+.wn-articles {
+    @include br10;
+    padding: 30px 20px 10px;
 }
 
 .whatsnew-header {
